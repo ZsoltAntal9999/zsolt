@@ -47,7 +47,7 @@ foreach($markaTomb as $markaNev)
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
-    <title>Auto dealer</title>
+    <title>Autó kereskedés</title>
     <style>
         /*.jumbotron{
             background: linear-gradient(to bottom, rgba(255,255,255,0.4), rgba(255,255,255,0.9)),url(honda.jpg) center no-repeat;
