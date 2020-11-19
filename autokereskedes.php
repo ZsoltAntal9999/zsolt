@@ -79,7 +79,7 @@ foreach($markaTomb as $markaNev)
     <div class="row justify-content-center">
         <div class="col-auto">
     <table class="table table-responsive table-bordered text-center">
-        <thead class="table-dark"><th>Márka</th><th>Évjárat</th><th>Ajtók száma</th><th>Szín</th></thead>
+        <thead class="table-dark"><th>Márka</th><th>Évjárat</th><th>Ajtók száma</th><th>Szín</th><th>Üzemanyag</th></thead>
         <tbody><?=$strSorok?></tbody>
     </table>
     </div>
