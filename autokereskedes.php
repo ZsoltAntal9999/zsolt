@@ -7,7 +7,7 @@ $autok=[];
 while(!$file->eof()){
     $sor=$file->fgets();
     $tomb=explode(";",$sor);
-    $autok[]=new Auto($tomb[0],$tomb[1],$tomb[2],$tomb[3]);
+    $autok[]=new Auto($tomb[0],$tomb[1],$tomb[2],$tomb[3],$tomb[4],$tomb[5]);
 }
 //print_r($autok);
 $markaTomb=[];
@@ -53,14 +53,14 @@ foreach($markaTomb as $markaNev)
             background: linear-gradient(to bottom, rgba(255,255,255,0.4), rgba(255,255,255,0.9)),url(honda.jpg) center no-repeat;
             background-size: cover;
         }*/
-        .container-fluid{
+        /*.container-fluid{
             max-width:900px;
             min-height:600px;
-        }
+        }*/
     </style>
 </head>
 <body>
-<div class="container-fluid jumbotron border">
+<div class="container-fluid">
     <h1 class="text-center">Autókereskedés - kínálat</h1>
     <div class="row justify-content-center">
         <form method="post">
@@ -79,7 +79,7 @@ foreach($markaTomb as $markaNev)
     <div class="row justify-content-center">
         <div class="col-auto">
     <table class="table table-responsive table-bordered text-center">
-        <thead class="table-dark"><th>Márka</th><th>Évjárat</th><th>Ajtók száma</th><th>Szín</th><th>Üzemanyag</th></thead>
+        <thead class="table-dark"><th>Márka</th><th>Évjárat</th><th>Ajtók száma</th><th>Szín</th><th>Üzemanyag</th><th>Fogyasztása</th></thead>
         <tbody><?=$strSorok?></tbody>
     </table>
     </div>
