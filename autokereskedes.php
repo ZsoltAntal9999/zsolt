@@ -57,6 +57,9 @@ foreach($markaTomb as $markaNev)
             max-width:900px;
             min-height:600px;
         }*/
+        input{
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -82,8 +85,25 @@ foreach($markaTomb as $markaNev)
         <thead class="table-dark"><th>Márka</th><th>Évjárat</th><th>Ajtók száma</th><th>Szín</th><th>Üzemanyag</th><th>Fogyasztása</th></thead>
         <tbody><?=$strSorok?></tbody>
     </table>
-    </div>
-    </div>
 </div>
+</div>
+</div>
+<hr>
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <h4>TANKOLJ ENNYIT!</h4>
+    </div>
+        <div>
+        <label for="">Utad hossza: (km-ben)</label>
+        <input type="number" name="km" id="km">
+        <br>
+        <label for="">Autód fogyasztása:  (L/100km)</label> 
+        <input type="number" name="fogy" id="fogy">
+        <br>
+        <label for="">Az úthoz minimum üzemanyag: (L)</label> 
+        <input type="text" name="liter" id="liter">
+        </div>
+</div>
+<hr>
 </body>
 </html>
