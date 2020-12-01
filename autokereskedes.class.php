@@ -17,7 +17,7 @@ class Auto{
         $this->fogyasztas=$fogyasztas;
     }
     public function htmlTablazatSor(){
-        return "<tr><td>".$this->nev."</td><td>".$this->ev."</td><td>".$this->ajto."</td><td>".$this->szin."</td><td>".$this->uzemanyag."</td><td>".$this->fogyasztas."</td></tr>";
+        return "<tr><td>".$this->nev."</td><td>".$this->ev."</td><td>".$this->ajto."</td><td>".$this->szin."</td><td>".$this->uzemanyag."</td><td>".$this->fogyasztas."L/100km"."</td></tr>";
     }
 }
 ?>

@@ -47,6 +47,7 @@ foreach($markaTomb as $markaNev)
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="autokereskedes.js"></script>
     <title>Autó kereskedés</title>
     <style>
         /*.jumbotron{
@@ -97,9 +98,7 @@ foreach($markaTomb as $markaNev)
         <label for="">Utad hossza: (km-ben)</label>
         <input type="number" name="km" id="km">
         <br>
-        <label for="">Autód fogyasztása:  (L/100km)</label> 
-        <input type="number" name="fogy" id="fogy">
-        <br>
+        <input type="button" value="Számol" id="gomb" name="gomb">
         <label for="">Az úthoz minimum üzemanyag: (L)</label> 
         <input type="text" name="liter" id="liter">
         </div>
