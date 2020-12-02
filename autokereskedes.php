@@ -99,8 +99,7 @@ foreach($markaTomb as $markaNev)
         <input type="number" name="km" id="km">
         <br>
         <input type="button" value="Számol" id="gomb" name="gomb">
-        <label for="">Az úthoz minimum üzemanyag: (L)</label> 
-        <input type="text" name="liter" id="liter">
+        <label for="">Az úthoz minimum üzemanyag: (L) <span id="tankeleg"></span></label> 
         </div>
 </div>
 <hr>
